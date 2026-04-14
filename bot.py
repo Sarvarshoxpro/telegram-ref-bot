@@ -5,11 +5,11 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 import aiosqlite
 
-TOKEN = os.getenv("8678480649:AAH24bm4SEOZ1dpJT-3UjKcF6v4g2VneCys")
+TOKEN = os.getenv("TOKEN")
 GROUP_ID = -3739344843
 ADMIN_ID = 8024670294  # o'zingni ID
 
-bot = Bot(8678480649:AAH24bm4SEOZ1dpJT-3UjKcF6v4g2VneCys)
+bot = Bot(TOKEN)
 dp = Dispatcher()
 
 logging.basicConfig(level=logging.INFO)
